@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Store - Studio Developers</title>
+    <link rel="stylesheet" href="styles/store.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#">Studio Developers</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="store.html">Store</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="jobs.html">Jobs</a></li>
+            </ul>
+            <div class="menu-icon" id="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Store Section -->
+    <main>
+        <section class="store">
+            <h1>Development Tools for Sale</h1>
+            <div class="product-list">
+                <div class="product-card" data-id="tool1">
+                    <img src="images/tool1.jpg" alt="Tool 1">
+                    <div class="product-info">
+                        <h2>Gamepass Icons</h2>
+                        <p>Enhance your productivity with this amazing tool.</p>
+                        <span class="price">$19.99</span>
+                        <button class="buy-btn">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal for Product Details -->
+<div class="modal" id="product-modal">
+    <div class="modal-content">
+        <span class="close-btn" id="close-modal">&times;</span>
+        <div class="modal-body">
+            <img src="" id="modal-img" alt="Product Image">
+            <h2 id="modal-title">Gamepass Icons</h2>
+            <p id="modal-description"></p>
+            <p><strong>Created by:</strong> <span id="modal-creator"></span>Aslandy (957357986341355660)</p>
+            <span class="price" id="modal-price"></span>
+            <button class="buy-btn">Buy Now</button>
+        </div>
+    </div>
+</div>
+
+    <footer>
+        <p>&copy; 2025 Studio Developers. All rights reserved. | <a href="#">Privacy Policy</a></p>
+    </footer>
+
+    <!-- Link to the JavaScript File -->
+    <script src="store.js"></script>
+</body>
+
+</html>
