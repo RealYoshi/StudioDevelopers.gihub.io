@@ -1,29 +1,29 @@
 /* about.css */
 ::-webkit-scrollbar {
-    width: 12px; /* Width of the scrollbar */
-    height: 12px; /* Height of the horizontal scrollbar */
+    width: 12px;
+    height: 12px; 
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #1a2b43; /* Dark blue background for the track */
-    border-radius: 10px; /* Rounded corners for the track */
+    background-color: #1a2b43;
+    border-radius: 10px; 
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #00aaff; /* Cyan blue thumb */
-    border-radius: 10px; /* Rounded corners for the thumb */
-    border: 3px solid #1a2b43; /* Adding a dark border around the thumb */
-    transition: background-color 0.3s ease; /* Smooth color transition */
+    background-color: #00aaff; 
+    border-radius: 10px; 
+    border: 3px solid #1a2b43; 
+    transition: background-color 0.3s ease; 
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #0088cc; /* Darker blue on hover */
+    background-color: #0088cc; 
 }
 
 ::-webkit-scrollbar-button {
-    display: none; /* Hides the arrows on the scrollbar */
+    display: none; 
 }
-/* Resetting margin and padding */
+
 * {
     margin: 0;
     padding: 0;
@@ -91,9 +91,8 @@ nav .menu-icon span {
     border-radius: 10px;
 }
 
-/* Main Content */
 main {
-    margin-top: 100px; /* Space for fixed header */
+    margin-top: 100px;
     padding: 50px 20px;
     text-align: center;
 }
@@ -116,7 +115,6 @@ p {
     margin-bottom: 20px;
 }
 
-/* Team Section */
 .team {
     margin-top: 40px;
     text-align: center;
@@ -131,9 +129,9 @@ p {
 
 .team-members {
     display: flex;
-    justify-content: center;  /* Align team members in the center */
-    gap: 30px;                /* Space between members */
-    flex-wrap: wrap;          /* Allow wrapping for smaller screens */
+    justify-content: center; 
+    gap: 30px;          
+    flex-wrap: wrap;       
 }
 
 .team-member {
@@ -168,19 +166,16 @@ p {
     color: #aaa;
 }
 
-/* Mobile Responsiveness */
 @media (max-width: 768px) {
     .team-members {
         gap: 20px;
     }
 
     .team-member {
-        width: 90%;  /* Make team member blocks take up more width on smaller screens */
+        width: 90%; 
     }
 }
 
-
-/* Contact Info */
 .contact ul {
     list-style: none;
     font-size: 18px;
@@ -198,7 +193,6 @@ p {
     color: #ffffff;
 }
 
-/* Footer Styles */
 footer {
     background-color: #1a2b43;
     padding: 20px;
@@ -215,7 +209,6 @@ footer a:hover {
     color: #ffffff;
 }
 
-/* Mobile Responsiveness */
 @media (max-width: 768px) {
     nav .nav-links {
         display: none;
