@@ -1,4 +1,3 @@
-/* Custom Scrollbar */
 ::-webkit-scrollbar {
     width: 12px;
     height: 12px;
@@ -38,7 +37,6 @@ body {
     overflow-x: hidden;
 }
 
-/* Header (Navbar) Styles */
 header {
     position: fixed;
     top: 0;
@@ -94,7 +92,6 @@ nav .menu-icon span {
     border-radius: 10px;
 }
 
-/* Login Button Styles */
 .login-btn a {
     background-color: #00aaff;
     color: white;
@@ -110,7 +107,6 @@ nav .menu-icon span {
     transform: translateY(-5px);
 }
 
-/* Hero Section */
 .hero {
     height: 100vh;
     display: flex;
@@ -151,7 +147,6 @@ nav .menu-icon span {
     transform: translateY(-5px);
 }
 
-/* Footer Styles */
 footer {
     background-color: #1a2b43;
     padding: 20px;
@@ -168,7 +163,6 @@ footer a:hover {
     color: #ffffff;
 }
 
-/* Mobile Responsiveness */
 @media (max-width: 768px) {
     nav .nav-links {
         display: none;
